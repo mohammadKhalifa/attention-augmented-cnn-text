@@ -7,7 +7,7 @@ This is my implementaion of single-layer [attention-augmented CNN](https://arxiv
 * Configure the `experiments/review_classifier.json` for hyperparameters. Just make sure to have `padding_length` in the dataset_reader configuration to be the same as `sequence_length` in the sentence encoder configuration.
 * Train the model with: 
 
-```
+`
 allennlp train experiments/review_classifier.json -s /out_dir --include-package my_library -f
 
-```
+`
