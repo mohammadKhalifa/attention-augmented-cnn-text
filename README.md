@@ -1,5 +1,5 @@
-# Attention-augmented Convolutions For Text Classification
-This is an [AllenNlp](https://github.com/allenai/allennlp) implementaion of single-layer [attention-augmented CNN](https://arxiv.org/abs/1904.09925) for Text Classification (Sentiment Analysis) of movie reviews on the [MR](http://www.cs.cornell.edu/people/pabo/movie-review-data/) dataset .
+# Attention-Augmented CNN For Text Classification
+This is my implementaion of single-layer [attention-augmented CNN](https://arxiv.org/abs/1904.09925) for Text Classification (Sentiment Analysis) of movie reviews on the [MR](http://www.cs.cornell.edu/people/pabo/movie-review-data/) dataset. The model is implemented as a `Seq2VecEncoder` in [AllenNlp](https://github.com/allenai/allennlp).
 
 ## Intstructions:
 
